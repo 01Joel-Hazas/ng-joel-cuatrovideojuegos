@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+              ],
+              "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              ]
           },
           "configurations": {
             "production": {
@@ -91,10 +95,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
-          }
+              "src/styles.css"
+              ],
+              "scripts": []
+            }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -126,3 +130,4 @@
   },
   "defaultProject": "ng-joel-cuatrovideojuegos"
 }
+

@@ -1,0 +1,11 @@
+
+<div class="jumbotron">
+  <h1>¡¡¡BIENVENIDO A 4VIDEOJUEGOS!!!</h1>
+ </div>
+ 
+
+<div class="row">
+  <div *ngFor="let videogame of videogames" class="col-12 col-md-6  col-lg-4">
+    <app-videogame-item [videogame]="videogame"></app-videogame-item>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<figure class="figure">
+  <img src="{{videogame.image}}" class="figure-img img-fluid rounded" width="300" height="600">
+  <figcaption class="figure-caption">
+    <h4> TITULO: {{videogame.title}}</h4>
+    <h5> PRECIO: {{videogame.price | currency}}</h5>
+    <h5> DESCRIPCIÓN: {{videogame.description}}</h5>
+    <h5> PUNTUACIÓN: {{videogame.rating}}</h5>
+  </figcaption>
+</figure>
+
+<div class="row mt-4">
+  <div class="col-md-4">
+    <button class="btn btn-outline-primary mr-3"
+            style="width:80px"
+            (click)="onBack()">
+      <i class="fa fa-chevron-left"></i> Volver
+    </button>
+    <button class="btn btn-outline-primary"
+            style="width:80px"
+            (click)="goEdit()">
+      Editar
+    </button>
+  </div>
+</div>

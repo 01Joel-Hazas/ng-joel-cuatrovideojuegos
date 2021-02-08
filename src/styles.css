@@ -1,0 +1,18 @@
+body {
+    background: url("https://www.wallpaperflare.com/static/227/739/630/dark-souls-video-games-vector-fan-art-wallpaper.jpg");
+    
+  }
+
+  .jumbotron {
+    background-image: url("https://www.wallpaperflare.com/static/227/739/630/dark-souls-video-games-vector-fan-art-wallpaper.jpg");
+    background-size: cover;
+  }
+
+  
+  .navbar {
+    background-color: #FFFEE0;
+  }
+
+  html, body {
+    cursor: url("/assets/images/squirtle.cur"), default;
+}
